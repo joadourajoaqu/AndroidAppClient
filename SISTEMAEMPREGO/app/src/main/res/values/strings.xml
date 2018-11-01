@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Emprego Sociomatico</string>
+    <string name="Login">Login</string>
+    <string name="Procurar">Procurar</string>
+    <string name="Empregador">Empregador</string>
+    <string name="Empresas">Empresas</string>
+    <string name="Pesquisar">Pesquisar</string>
+    <string name="Sobre">Sobre</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+</resources>
