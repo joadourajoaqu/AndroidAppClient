@@ -30,5 +30,15 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+        btLogin.setOnClickListener(new View.OnClickListener(){
+
+
+            public void onClick(View v) {
+                Intent loginIntent = new Intent(LoginActivity.this, MainActivity.class);
+                LoginActivity.this.startActivity(loginIntent);
+            }
+        });
+
+
     }
 }
