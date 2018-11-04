@@ -32,7 +32,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btLogin"
+        android:id="@+id/btFindFile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
@@ -47,7 +47,7 @@
         android:id="@+id/tvRegisterLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/btLogin"
+        android:layout_below="@+id/btFindFile"
         android:layout_centerHorizontal="true"
         android:text="Register Here"
         android:textSize="14sp" />

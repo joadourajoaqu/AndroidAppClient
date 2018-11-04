@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvRegister"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <Button
+        android:id="@+id/btFindFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etUsername"
+        android:layout_marginTop="50dp"
+        android:text="Select File to Upload" />
+
+    <EditText
+        android:id="@+id/etPDF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/btFindFile"
+        android:layout_alignLeft="@+id/btFindFile"
+        android:layout_alignRight="@+id/btFindFile"
+        android:layout_alignStart="@+id/btFindFile"
+        android:layout_below="@+id/btFindFile"
+        android:layout_marginTop="41dp"
+        android:ems="10"
+        android:hint="PDF Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/etPDF"
+        android:layout_alignLeft="@+id/etPDF"
+        android:layout_alignRight="@+id/etPDF"
+        android:layout_alignStart="@+id/etPDF"
+        android:layout_below="@+id/etPDF"
+        android:layout_marginTop="49dp"
+        android:text="Upload PDF" />
+
+</RelativeLayout>
